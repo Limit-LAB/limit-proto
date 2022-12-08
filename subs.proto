@@ -1,6 +1,8 @@
 syntax = "proto3";
 package limit.subs;
 
+option go_package = "github.com/Limit-IM/limit-sdk-go/proto";
+
 import "auth.proto";
 import "subs.types.proto";
 

@@ -1,6 +1,8 @@
 syntax = "proto3";
 package limit.utils;
 
+option go_package = "github.com/Limit-IM/limit-sdk-go/proto";
+
 // using int64 timestamp from UTC
 message Date {
     uint64 ts = 1;

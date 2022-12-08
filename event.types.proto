@@ -1,6 +1,8 @@
 syntax = "proto3";
 package limit.event.types;
 
+option go_package = "github.com/Limit-IM/limit-sdk-go/proto";
+
 enum Types {
     UNKNOWN = 0;
     MESSAGE = 1;
