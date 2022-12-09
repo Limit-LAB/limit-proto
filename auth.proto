@@ -1,7 +1,7 @@
 syntax = "proto3";
 package limit.auth;
 
-option go_package = "github.com/Limit-IM/limit-sdk-go/proto";
+option go_package = "github.com/Limit-IM/limit-sdk-go/proto/auth";
 
 message Auth {
     string jwt = 1;
